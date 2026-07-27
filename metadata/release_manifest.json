@@ -1,0 +1,448 @@
+{
+  "artifact": "BlackSwanNewsBench-HF",
+  "format": "huggingface-native-multi-config-parquet",
+  "storage_split": "full",
+  "benchmark_splits": [
+    "RandomFirm",
+    "LOEO",
+    "LOMO"
+  ],
+  "config_rows": {
+    "daily_features": 457956,
+    "gdelt_firm": 457956,
+    "gdelt_market": 1452,
+    "news": 1423608,
+    "outcomes": 5046,
+    "price": 1178432,
+    "text_embeddings": 112916
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 142,
+      "sha256": "05f9968be66e41343612414fa8c52b352009e38631763e0b4f8b468d3c166982"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5994,
+      "sha256": "709a357ca6ab6428eed07b8a96f4870b1dc071ba0bc393acf41e5fbe33446565"
+    },
+    {
+      "path": "data/daily_features/full--csi300--00000.parquet",
+      "bytes": 5470569,
+      "sha256": "4fee2749b70cd39683ede81ba91349c303c845d41310f1d40d64fc24380b2506",
+      "rows": 145236
+    },
+    {
+      "path": "data/daily_features/full--hstech--00000.parquet",
+      "bytes": 998356,
+      "sha256": "fe39c5b484b9578847d612bdc3c322ca168faf404280cce04fc59789df50f993",
+      "rows": 17697
+    },
+    {
+      "path": "data/daily_features/full--nikkei225--00000.parquet",
+      "bytes": 3854226,
+      "sha256": "b3963a68b42b627da5b27358684298aaff8a9dea475982e029a1cacc170beed2",
+      "rows": 79224
+    },
+    {
+      "path": "data/daily_features/full--sp500--00000.parquet",
+      "bytes": 12234832,
+      "sha256": "dcb44c5d7f8ca1cde607161df7d74f562c7d822a145cdcd60c045dc752fac70b",
+      "rows": 215799
+    },
+    {
+      "path": "data/gdelt_firm/full--csi300--00000.parquet",
+      "bytes": 1871034,
+      "sha256": "71b6269d3f3b15d31a198d38e31387653cdb5700bfab32ffa52e201783de8c4b",
+      "rows": 145236
+    },
+    {
+      "path": "data/gdelt_firm/full--hstech--00000.parquet",
+      "bytes": 477193,
+      "sha256": "d7b411af7a9c3c86fc30a643ec457a4be9b1597f5af3d6e8997d868151496b18",
+      "rows": 17697
+    },
+    {
+      "path": "data/gdelt_firm/full--nikkei225--00000.parquet",
+      "bytes": 2428626,
+      "sha256": "a2fab38f619f051df86835359a09bc495c59ab10aac34824a62b47dd3485ae96",
+      "rows": 79224
+    },
+    {
+      "path": "data/gdelt_firm/full--sp500--00000.parquet",
+      "bytes": 6998580,
+      "sha256": "2f096dc409c331eadc10a3b4dc66461810a566b1fa62eed09e8b2b29af695b54",
+      "rows": 215799
+    },
+    {
+      "path": "data/gdelt_market/full--csi300--00000.parquet",
+      "bytes": 100379,
+      "sha256": "7b403b1cf80aa56a8d5654a93cd67c88e0a86b313b819400ab40a8bcdfad817d",
+      "rows": 363
+    },
+    {
+      "path": "data/gdelt_market/full--hstech--00000.parquet",
+      "bytes": 90392,
+      "sha256": "acf0a0d712dfc9ca56d434bb420e9401783f2ef677171cd74e9f50687fa5bae3",
+      "rows": 363
+    },
+    {
+      "path": "data/gdelt_market/full--nikkei225--00000.parquet",
+      "bytes": 101092,
+      "sha256": "d27d2b4a92e8b0a32fff8bbe4af2eb01248eec9804410490a0c46f044b7531f5",
+      "rows": 363
+    },
+    {
+      "path": "data/gdelt_market/full--sp500--00000.parquet",
+      "bytes": 105702,
+      "sha256": "38730feb3a80d82485787cddad3fcb0332b63e1d215f1f5708f17dfb04aa041f",
+      "rows": 363
+    },
+    {
+      "path": "data/news/full--csi300--covid19-first-wave--00000.parquet",
+      "bytes": 99399312,
+      "sha256": "62bc76da6f5708c7b5f2f7a6ccf972e8f7176b55c3328b588fbcfa2bbff8ae01",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--covid19-first-wave--00001.parquet",
+      "bytes": 88896103,
+      "sha256": "e466ac6ea8b934d786fc7ab0de85253fd901c3275cdef00b9fc9a86bf4066179",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--covid19-first-wave--00002.parquet",
+      "bytes": 99238840,
+      "sha256": "7866abd180f1461eb9908bbef1682f89ad16141b121865355e42b17818cb3d2f",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--covid19-first-wave--00003.parquet",
+      "bytes": 39495938,
+      "sha256": "92641c3c5beca7e017a4a0b6b13506ad4b4b90aeac3044daef4ba00b77377e30",
+      "rows": 28288
+    },
+    {
+      "path": "data/news/full--csi300--israel-palestine-conflict-2023--00000.parquet",
+      "bytes": 61272681,
+      "sha256": "af08ac5b5aed614ffbb310b6eff5733d9bebecf5be7e105cf80aadc31756f55a",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--israel-palestine-conflict-2023--00001.parquet",
+      "bytes": 56580325,
+      "sha256": "1b149c1700df2c3f4a8b031357b6c99478f20b526fda1deb14660d040b786d1b",
+      "rows": 68282
+    },
+    {
+      "path": "data/news/full--csi300--russia-ukraine-conflict-2022--00000.parquet",
+      "bytes": 80361238,
+      "sha256": "7aa2f14f7f5c5e3a4991bfd20881d6a109623a97db2281538c17244159f0b3e8",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--russia-ukraine-conflict-2022--00001.parquet",
+      "bytes": 85808717,
+      "sha256": "a99d874aab7217eb424cd7494be6035e00643230562253e3f346abcfca6375a0",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--russia-ukraine-conflict-2022--00002.parquet",
+      "bytes": 81099702,
+      "sha256": "fbe4ab46b68c632b9dcf6847b96b6bf56b95c3787e1242f57da06589967f4cbb",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--russia-ukraine-conflict-2022--00003.parquet",
+      "bytes": 82314721,
+      "sha256": "c8c75bacf48a4e8819d59ae333fb5a6b07a7822a72b0e28e7d470e0cb452d1d5",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--russia-ukraine-conflict-2022--00004.parquet",
+      "bytes": 2825274,
+      "sha256": "aab01f94307727acd0474eaa6883ffe9c44193df699e89e388a596b05e92339f",
+      "rows": 2684
+    },
+    {
+      "path": "data/news/full--csi300--us-israel-iran-conflict-2025--00000.parquet",
+      "bytes": 58749633,
+      "sha256": "8c544df3df18c0cb81026db43dd1fff71ea5c976dc6996e93d5d99030c8be49b",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--us-israel-iran-conflict-2025--00001.parquet",
+      "bytes": 77843623,
+      "sha256": "b517c1e2f2df896c486cca0c4f50d5fe4fd46e0d6ca6a0c697742891fca9f958",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--us-israel-iran-conflict-2025--00002.parquet",
+      "bytes": 52279060,
+      "sha256": "b73d082430c408b4e76f463767c9d453c5b281e09d42c43db03a19b80366bda8",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--us-israel-iran-conflict-2025--00003.parquet",
+      "bytes": 70168192,
+      "sha256": "62db5db5a8ea7b9a7874c58e67c951d4aa3385b0c3a955cbf934bc25faacd77a",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--csi300--us-israel-iran-conflict-2025--00004.parquet",
+      "bytes": 31303899,
+      "sha256": "32ffc3a8838cab6857d114bde41725dc3394d1a156a617e65b7eea25217be65a",
+      "rows": 40479
+    },
+    {
+      "path": "data/news/full--hstech--covid19-first-wave--00000.parquet",
+      "bytes": 67773831,
+      "sha256": "01124e9f47d0eafcaec525ebb7fd3613052dd8498c0abe7f73e7bd28dbc0b2b1",
+      "rows": 34766
+    },
+    {
+      "path": "data/news/full--hstech--israel-palestine-conflict-2023--00000.parquet",
+      "bytes": 18309034,
+      "sha256": "22d12560cb7960d69e0d67f183a2d9b6228a5a2de15ebd5d94683978eb69fcdc",
+      "rows": 9217
+    },
+    {
+      "path": "data/news/full--hstech--russia-ukraine-conflict-2022--00000.parquet",
+      "bytes": 35719314,
+      "sha256": "048d6d36984f57a39c14d97ff660c5499bb310e1c3012a8542f46d8d6d3993e2",
+      "rows": 25181
+    },
+    {
+      "path": "data/news/full--hstech--us-israel-iran-conflict-2025--00000.parquet",
+      "bytes": 40653347,
+      "sha256": "92d5bcbf4c5f2ff5e006d49c9006f743383ac79d8132f7327d37e10b66356fae",
+      "rows": 21098
+    },
+    {
+      "path": "data/news/full--nikkei225--covid19-first-wave--00000.parquet",
+      "bytes": 787365,
+      "sha256": "fe1966aed9c0c96684e4f811a57a4fb0c1c9a20800284a40f6cd7b190558d10c",
+      "rows": 5146
+    },
+    {
+      "path": "data/news/full--nikkei225--israel-palestine-conflict-2023--00000.parquet",
+      "bytes": 727322,
+      "sha256": "762050ca098ded4d6a9f7f35836402a2c34b30afd261681ddc5f6d1507e50252",
+      "rows": 6884
+    },
+    {
+      "path": "data/news/full--nikkei225--russia-ukraine-conflict-2022--00000.parquet",
+      "bytes": 816875,
+      "sha256": "6ca9173d31e66813653e3f1d71f768cf4e1728481004e190ed128e532a65e4a9",
+      "rows": 6448
+    },
+    {
+      "path": "data/news/full--nikkei225--us-israel-iran-conflict-2025--00000.parquet",
+      "bytes": 632119,
+      "sha256": "4478c9ff04dd20188a548561be49b4cc7e01f9d077ea0f59f1fce5127db6af82",
+      "rows": 7387
+    },
+    {
+      "path": "data/news/full--sp500--covid19-first-wave--00000.parquet",
+      "bytes": 56585750,
+      "sha256": "27b6ec3533bb9a29d8133dfec7659aa3ca61a186b120f4082dbb4f57276b2374",
+      "rows": 53718
+    },
+    {
+      "path": "data/news/full--sp500--israel-palestine-conflict-2023--00000.parquet",
+      "bytes": 69394055,
+      "sha256": "f634be8e155c0c03f171ae033e6718ae6900bdb89d3f5c25a38f41960ef95a3d",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--sp500--israel-palestine-conflict-2023--00001.parquet",
+      "bytes": 13304627,
+      "sha256": "8586d235234389eee3ec62c572a88e3dcdda48c81c67f92162e28857dfd311c5",
+      "rows": 22313
+    },
+    {
+      "path": "data/news/full--sp500--russia-ukraine-conflict-2022--00000.parquet",
+      "bytes": 71217777,
+      "sha256": "18ef369d4482b543e544d953afc6e16c381653bc4379323e9ce060b15697255a",
+      "rows": 75000
+    },
+    {
+      "path": "data/news/full--sp500--russia-ukraine-conflict-2022--00001.parquet",
+      "bytes": 1671386,
+      "sha256": "3ba9c348368116f962af46bed578454a99654c021200c0130b425c4985fc212c",
+      "rows": 6000
+    },
+    {
+      "path": "data/news/full--sp500--us-israel-iran-conflict-2025--00000.parquet",
+      "bytes": 18169286,
+      "sha256": "5c42e1fd5a3ed9ae04d679379665f23c2f6e60fef9f8041eb4883ceb14fc4ef6",
+      "rows": 35717
+    },
+    {
+      "path": "data/outcomes/full--csi300--00000.parquet",
+      "bytes": 23103,
+      "sha256": "a578ec73ee6a923124e4198b17b6d4cc04b81048c5fe807f709a2c7309f0db3c",
+      "rows": 1600
+    },
+    {
+      "path": "data/outcomes/full--hstech--00000.parquet",
+      "bytes": 10554,
+      "sha256": "5f3a9366abf2cee5d582d788a643719d3bf4547e6feeb15d1d95afd999848609",
+      "rows": 195
+    },
+    {
+      "path": "data/outcomes/full--nikkei225--00000.parquet",
+      "bytes": 16190,
+      "sha256": "674a29eeaf484931a6b165817700dd5ec26809d89f8b61fd205888507ff8dee3",
+      "rows": 873
+    },
+    {
+      "path": "data/outcomes/full--sp500--00000.parquet",
+      "bytes": 29895,
+      "sha256": "15b7c3672c5f41c6f6f36d5248901abf2c1597fd7317cfd9f7d86e2acadfea2a",
+      "rows": 2378
+    },
+    {
+      "path": "data/price/full--csi300--00000.parquet",
+      "bytes": 3625085,
+      "sha256": "b1eb144e0451fa022c318b0438c9235e6596500cc2036a161602f1c05e15b0fe",
+      "rows": 250000
+    },
+    {
+      "path": "data/price/full--csi300--00001.parquet",
+      "bytes": 2406381,
+      "sha256": "b5d6e7817d7ceb11dfd0ddea37c04bd52b5f7200c0a84c65babbf01fddf7086a",
+      "rows": 168818
+    },
+    {
+      "path": "data/price/full--hstech--00000.parquet",
+      "bytes": 915080,
+      "sha256": "f577ea7f32e7f867aea427837a2954c112e94c813311f6bd3ad6547d2ee9b47e",
+      "rows": 63886
+    },
+    {
+      "path": "data/price/full--nikkei225--00000.parquet",
+      "bytes": 2884069,
+      "sha256": "7b4e003492e0f1524246a0960411faa4ef78a4f25275ff4ef8c7b11e5f9e9a86",
+      "rows": 250000
+    },
+    {
+      "path": "data/price/full--nikkei225--00001.parquet",
+      "bytes": 871536,
+      "sha256": "4721a677e688506c623ef71a0c50bb31d39ad3fe5b6cd7490063cbb15d627dfb",
+      "rows": 71562
+    },
+    {
+      "path": "data/price/full--sp500--00000.parquet",
+      "bytes": 4308188,
+      "sha256": "818778839a6f2c935815a58b43e3cede488ec3deb462ce55edb7f791202f298d",
+      "rows": 250000
+    },
+    {
+      "path": "data/price/full--sp500--00001.parquet",
+      "bytes": 2132217,
+      "sha256": "c8b6fef6973d005e282b4c4f5f91133538e3f1c55bd3c8f250f80401b745eb6f",
+      "rows": 124166
+    },
+    {
+      "path": "data/text_embeddings/full--csi300--00000.parquet",
+      "bytes": 145300931,
+      "sha256": "81fff2f943e7f2079a0b7cfd9a2e3eb3dee3c988841f2eff5862f2b4ab066524",
+      "rows": 61243
+    },
+    {
+      "path": "data/text_embeddings/full--hstech--00000.parquet",
+      "bytes": 16089191,
+      "sha256": "befbaf9e83f2016811b65d6b626107e548a11982c3b3d176ae82452da8ba2743",
+      "rows": 5883
+    },
+    {
+      "path": "data/text_embeddings/full--nikkei225--00000.parquet",
+      "bytes": 10647380,
+      "sha256": "3e9551befca96c5faf7d59d0e39a7712a4d203ebc705ea8cf3e5c0d9c5c1ea27",
+      "rows": 4038
+    },
+    {
+      "path": "data/text_embeddings/full--sp500--00000.parquet",
+      "bytes": 100647865,
+      "sha256": "8505bb49b110b225645528c4ed163c7c18aacc1adb7b731a9076061b5c892207",
+      "rows": 41752
+    },
+    {
+      "path": "docs/benchmark_card.md",
+      "bytes": 2807,
+      "sha256": "d9b8de25a68cd63d936d36a7c1eefc529ac5a2b3cdb5223ddb193e68fe282b65"
+    },
+    {
+      "path": "docs/benchmark_protocol.md",
+      "bytes": 1872,
+      "sha256": "419f2c93f2b4a0c9295caecd6f37d4ce80edeb131e9b78c746ca195f4bfdbd93"
+    },
+    {
+      "path": "docs/data_dictionary.md",
+      "bytes": 10995,
+      "sha256": "6eb6694243d49d893478ee84e14f3bc880dc52780dd3e8961aed5e7d59e22a66"
+    },
+    {
+      "path": "docs/huggingface_layout.md",
+      "bytes": 800,
+      "sha256": "9a16a191df40773eac57354c16784c999216927b0cc0d4da0816bffb96de7158"
+    },
+    {
+      "path": "docs/rights_policy.md",
+      "bytes": 2583,
+      "sha256": "0c6ad497875fa7f83c212f57860294ed299bf6082e42040c9826a0fd1b84ff78"
+    },
+    {
+      "path": "event_market_data_description.csv",
+      "bytes": 1256,
+      "sha256": "202a7a7f27513dbb9e95fae83e02abc28bd805e7811afea6f6a23bb981729150"
+    },
+    {
+      "path": "market_data_description.csv",
+      "bytes": 442,
+      "sha256": "97c8e8e5801397f466dc78c23c8bb3d5c820b7ad86dc0b615693ddce688dd0be"
+    },
+    {
+      "path": "metadata/companies.csv",
+      "bytes": 459860,
+      "sha256": "918ca0d23eddb5ac5a945e6a91db5ea92d6f7fa9f3676351dfe9ff3f5fac87d8"
+    },
+    {
+      "path": "metadata/events.csv",
+      "bytes": 2304,
+      "sha256": "cce1fe5968aca6dbac50963c6d96ae0e231fadd49552b64bb577abba89901270"
+    },
+    {
+      "path": "metadata/source_inventory.csv",
+      "bytes": 22110,
+      "sha256": "62f4b7cf118023efdc0f8aae75974e4f4d1c8c071eff149d6e8a057722d910c6"
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "bytes": 1431,
+      "sha256": "284a3b311be7e9ddcd02b9f75d724869a32af3ab3bee6a695f0b3c7b06df35a9"
+    },
+    {
+      "path": "splits/default_chronological.json",
+      "bytes": 945,
+      "sha256": "4b180bd57b22c174138a94fce17c1e951a636e1fc1979916a255af928f536c03"
+    },
+    {
+      "path": "splits/leave_one_event_out.json",
+      "bytes": 3704,
+      "sha256": "488a6d7ba6e94a2becfc941aaaef63c465b00a2b570e3e954bfbbdaa415c2bd6"
+    },
+    {
+      "path": "splits/leave_one_market_out.json",
+      "bytes": 4181,
+      "sha256": "0eca5dfa2f1faf01ef680dee5e67a6807da6235f1d2961ea2021521ef3a609f3"
+    },
+    {
+      "path": "splits/random_firm_split_seed42.json",
+      "bytes": 23800,
+      "sha256": "947aeea547245b1b1fa6a44b923f3e6b492a34b32abcd367a3f61227dd991475"
+    }
+  ]
+}

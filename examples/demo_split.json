@@ -1,0 +1,16 @@
+{
+  "split_type": "demo_event_split",
+  "train": {
+    "events": ["demo_train"],
+    "markets": ["DEMO"]
+  },
+  "validation": {
+    "events": [],
+    "markets": []
+  },
+  "test": {
+    "events": ["demo_test"],
+    "markets": ["DEMO"]
+  }
+}
+

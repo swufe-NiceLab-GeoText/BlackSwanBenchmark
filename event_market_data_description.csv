@@ -1,0 +1,17 @@
+event_id,market,candidate_samples,labeled_samples,source_news_association_rows,gdelt_firm_day_rows,gdelt_market_day_rows,daily_feature_rows,embedding_rows
+covid19_first_wave,CSI300,409,383,253288,36810,90,36810,13130
+covid19_first_wave,HSTECH,50,29,34766,4500,90,4500,1966
+covid19_first_wave,Nikkei225,218,217,5146,19620,90,19620,480
+covid19_first_wave,SP500,595,578,53718,53550,90,53550,6984
+russia_ukraine_conflict_2022,CSI300,412,403,302684,38316,93,38316,14537
+russia_ukraine_conflict_2022,HSTECH,49,45,25181,4557,93,4557,1365
+russia_ukraine_conflict_2022,Nikkei225,218,217,6448,20274,93,20274,1130
+russia_ukraine_conflict_2022,SP500,593,566,81000,55149,93,55149,12330
+israel_palestine_conflict_2023,CSI300,402,398,143282,36180,90,36180,14639
+israel_palestine_conflict_2023,HSTECH,48,46,9217,4320,90,4320,1025
+israel_palestine_conflict_2023,Nikkei225,218,217,6884,19620,90,19620,1092
+israel_palestine_conflict_2023,SP500,594,551,97313,53460,90,53460,16184
+us_israel_iran_conflict_2025,CSI300,377,374,340479,33930,90,33930,18937
+us_israel_iran_conflict_2025,HSTECH,48,48,21098,4320,90,4320,1527
+us_israel_iran_conflict_2025,Nikkei225,219,218,7387,19710,90,19710,1336
+us_israel_iran_conflict_2025,SP500,596,547,35717,53640,90,53640,6254

@@ -1,0 +1,5 @@
+market,observed_firms,candidate_samples,labeled_samples,price_rows,source_news_association_rows,gdelt_firm_day_rows,gdelt_market_day_rows,daily_feature_rows,embedding_rows,source_news_languages
+CSI300,478,1600,1558,418818,1039733,145236,363,145236,61243,zh
+HSTECH,50,195,168,63886,90262,17697,363,17697,5883,zh
+Nikkei225,219,873,869,321562,25865,79224,363,79224,4038,ja;zh
+SP500,597,2378,2242,374166,267748,215799,363,215799,41752,en;zh

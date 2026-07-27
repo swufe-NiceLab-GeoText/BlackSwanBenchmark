@@ -1,0 +1,7 @@
+{
+  "task": "T2",
+  "model": "linear",
+  "params": {
+    "alpha": 1.0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "task": "T1",
+  "model": "linear",
+  "params": {
+    "C": 1.0,
+    "max_iter": 2000,
+    "class_weight": "balanced"
+  }
+}

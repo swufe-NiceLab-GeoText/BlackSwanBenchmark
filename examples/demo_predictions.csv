@@ -1,0 +1,8 @@
+event_id,market,ticker,t1_score,t2_prediction
+demo_test,DEMO,D11,0.90,-0.15
+demo_test,DEMO,D12,0.25,-0.04
+demo_test,DEMO,D13,0.10,-0.01
+demo_test,DEMO,D14,0.08,0.02
+demo_test,DEMO,D15,0.30,0.05
+demo_test,DEMO,D16,0.85,0.18
+

@@ -1,0 +1,162 @@
+{
+  "data_version": "p0_freeze_20260512_no_price_companies_removed",
+  "split_type": "leave_one_event_out",
+  "generated_at_utc": "2026-05-19T11:05:31+00:00",
+  "seed": 42,
+  "leakage_policy": "see benchmark/benchmark_protocol.md",
+  "random_firm_day_split": false,
+  "folds": [
+    {
+      "fold_id": "heldout_event__covid19_first_wave",
+      "held_out_event": "covid19_first_wave",
+      "train": {
+        "events": [
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "validation": {
+        "events": [],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "test": {
+        "events": [
+          "covid19_first_wave"
+        ],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "feature_cutoff": "event_start_date_minus_one_calendar_day"
+    },
+    {
+      "fold_id": "heldout_event__russia_ukraine_conflict_2022",
+      "held_out_event": "russia_ukraine_conflict_2022",
+      "train": {
+        "events": [
+          "covid19_first_wave",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "validation": {
+        "events": [],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "test": {
+        "events": [
+          "russia_ukraine_conflict_2022"
+        ],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "feature_cutoff": "event_start_date_minus_one_calendar_day"
+    },
+    {
+      "fold_id": "heldout_event__israel_palestine_conflict_2023",
+      "held_out_event": "israel_palestine_conflict_2023",
+      "train": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "validation": {
+        "events": [],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "test": {
+        "events": [
+          "israel_palestine_conflict_2023"
+        ],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "feature_cutoff": "event_start_date_minus_one_calendar_day"
+    },
+    {
+      "fold_id": "heldout_event__us_israel_iran_conflict_2025",
+      "held_out_event": "us_israel_iran_conflict_2025",
+      "train": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023"
+        ],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "validation": {
+        "events": [],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "test": {
+        "events": [
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "feature_cutoff": "event_start_date_minus_one_calendar_day"
+    }
+  ]
+}

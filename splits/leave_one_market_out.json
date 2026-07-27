@@ -1,0 +1,162 @@
+{
+  "data_version": "p0_freeze_20260512_no_price_companies_removed",
+  "split_type": "leave_one_market_out",
+  "generated_at_utc": "2026-05-19T11:05:31+00:00",
+  "seed": 42,
+  "leakage_policy": "see benchmark/benchmark_protocol.md",
+  "random_firm_day_split": false,
+  "folds": [
+    {
+      "fold_id": "heldout_market__CSI300",
+      "held_out_market": "CSI300",
+      "train": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "HSTECH",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "validation": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": []
+      },
+      "test": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "CSI300"
+        ]
+      },
+      "feature_cutoff": "event_start_date_minus_one_calendar_day"
+    },
+    {
+      "fold_id": "heldout_market__HSTECH",
+      "held_out_market": "HSTECH",
+      "train": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "CSI300",
+          "Nikkei225",
+          "SP500"
+        ]
+      },
+      "validation": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": []
+      },
+      "test": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "HSTECH"
+        ]
+      },
+      "feature_cutoff": "event_start_date_minus_one_calendar_day"
+    },
+    {
+      "fold_id": "heldout_market__Nikkei225",
+      "held_out_market": "Nikkei225",
+      "train": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "SP500"
+        ]
+      },
+      "validation": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": []
+      },
+      "test": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "Nikkei225"
+        ]
+      },
+      "feature_cutoff": "event_start_date_minus_one_calendar_day"
+    },
+    {
+      "fold_id": "heldout_market__SP500",
+      "held_out_market": "SP500",
+      "train": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "CSI300",
+          "HSTECH",
+          "Nikkei225"
+        ]
+      },
+      "validation": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": []
+      },
+      "test": {
+        "events": [
+          "covid19_first_wave",
+          "russia_ukraine_conflict_2022",
+          "israel_palestine_conflict_2023",
+          "us_israel_iran_conflict_2025"
+        ],
+        "markets": [
+          "SP500"
+        ]
+      },
+      "feature_cutoff": "event_start_date_minus_one_calendar_day"
+    }
+  ]
+}
