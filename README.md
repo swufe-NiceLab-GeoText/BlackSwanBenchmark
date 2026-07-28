@@ -74,6 +74,7 @@ All protocols use frozen split files. Inputs are strictly pre-event, abnormal re
 
 The release provides both source-oriented modality tables and ready-to-run model inputs.
 
+The complete dataset is hosted on [Google Drive](https://drive.google.com/drive/folders/1BC1whnEIuTSSDltdk1zRUPqEDEBBce1G?usp=drive_link); download it and place the extracted collection folders under `data/` before running the benchmark.
 | Collection | Statistical unit | Rows |
 |---|---|---:|
 | `price` | market-firm-trading-day | 1,178,432 |
